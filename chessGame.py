@@ -409,7 +409,7 @@ def main(WIN, WIDTH):
                             moves += 1
                             selected = False
                             moved = False
-                            #print(convert_to_readable(board))
+                            # print(convert_to_readable(board))
                     else:
                         deselect()
                         remove_highlight(grid)
